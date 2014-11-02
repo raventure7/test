@@ -9,9 +9,11 @@ var server = http.createServer(function (request, response){
 */
 // 모듈 추출
 
+/*
 var fs = require('fs');
 var ejs = require('ejs');
 var mysql = require('mysql');
+*/
 var http = require('http');
 var server = require('http').createServer(function (request, response){
 	response.end('helllow NodeJS');
